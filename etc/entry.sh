@@ -5,7 +5,7 @@ bash "${STEAMCMDDIR}/steamcmd.sh" +force_install_dir "${STEAMAPPDIR}" \
 				-beta "${STEAMAPPBETA}" \
 				+quit
 
-bash "${STEAMAPPDIR}/start-server.sh \
+bash "${STEAMAPPDIR}/start-server.sh" \
 	-servername ${SERVERNAME} \
 	-serverpassword ${SERVERPASSWORD}  \
 	-adminpassword ${ADMINPASSWORD}
